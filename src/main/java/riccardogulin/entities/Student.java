@@ -20,7 +20,7 @@ public class Student {
 	private StudentType studentType;
 
 	public Student() { // <-- OBBLIGATORIO
-		// Se voglio che JPA sia in grado di restuirmi i dati del DB sotto forma di oggetti Student, allora è obbligatorio avere il costruttore vuoto
+		// Se voglio che JPA sia in grado di restituirmi i dati del DB sotto forma di oggetti Student, allora è obbligatorio avere il costruttore vuoto
 	}
 
 	public Student(String name, String surname, StudentType studentType) {
